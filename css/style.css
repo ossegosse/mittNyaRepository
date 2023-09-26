@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(226, 85, 85);
+}
+
+.header-container {
+    display: flex;
+    background-color: rgb(133, 127, 127);
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0.5em 0em 0.5em 1em;
+    align-items: center;
+}
+
+.header-container h1, a {
+    color: white;
+}
+
+.header-container h1 {
+    font-size: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    padding: 2em;
+    font-size: 1.1em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: solid underline;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    width: 80vw;
+}
+
+.about-me, .abilities {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 1rem;
+}
+
+.about-me .abilities > p {
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 1rem;
+}
+
+footer {
+    margin-top: auto;
+    width: 100vw;
+    background-color: rgb(133, 127, 127);
+}
+
+footer .footer-section {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    justify-content: space-around;
+}
